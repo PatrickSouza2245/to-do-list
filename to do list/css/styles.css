@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+    outline: none;
+}
+
+body{
+    height: 966px;
+    background-image: linear-gradient(to bottom right, purple, rosybrown);
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.container{
+    background-color: #d1d1d1;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+.input-task{
+    border: none;
+    border-radius: 10px;
+    width: 360px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.btn-add-task{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(255, 208, 208);
+    color: rgb(80, 0, 56);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.btn-add-task:hover{
+    background-color: black;
+    color: pink;
+    transition: all .5s ;
+}
+
+.list-tasks{
+    width: 100%;
+    list-style: none;
+}
+
+.task{
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.task:hover i{
+    opacity: 1;
+    transition: all .7s;
+}
+
+i{
+    font-size: 28px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#check:hover{
+    color: rgb(1, 204, 1);
+}
+
+#remove:hover{
+    color: red;
+}
+
+.done{
+    background-color: #8fac55;
+}
