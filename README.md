@@ -1,6 +1,6 @@
-# to-do-list
+# to-do list
 
-to-do-list 
+to-do list 
 
 Este é um projeto de aplicação de lista de tarefa(To-Do list) desenvolvido para ajudar a organizar atividades diárias e mais.  
 
